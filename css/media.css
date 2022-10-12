@@ -1,0 +1,624 @@
+@media(max-width: 900px){
+	.promo_item p {
+		font-size: 18px;
+	}
+	.chemWork_item {
+		display: flex;
+		width: 70%;
+		margin-bottom: 20px;
+	}
+	.chemWork_item div {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.chemWork_item div, .chemWork_item p {
+		justify-content: space-between;
+		align-items: center;
+	}
+	.chemWork_group:first-child {
+		padding-bottom: 0;
+	}
+	.chemWork_group:last-child {
+		margin-top: 0;
+	}
+	.chemWork_item p {
+		padding-left: 30px;
+		padding-top: 18px;
+	}
+}
+
+@media(max-width: 780px){
+	.slide {
+		height: 460px;
+	}
+	.promo .container {
+	    margin-top: 408px;
+	}
+	.choice_group {
+		margin-top: 0;
+	}
+	.choice_item:last-child {
+		margin-top: 20px;
+	}
+
+	.clients_item {
+		width: 70%;
+		display: flex;
+		margin-bottom: 30px;
+	}
+	.clients_item img, .clients_item div {
+		justify-content: space-between;
+		align-items: center;
+	}
+	.clients_item div {
+		width: 70%;
+		padding-top: 0;
+	}
+	.clients_item img {
+		padding-bottom: 0;
+		height: 100px;
+		width: 100px;
+	}
+	.clients_item hr {
+		display: none;
+	}
+	.clients_group:first-child {
+		padding-bottom: 0;
+	}
+	.clients_group:last-child {
+		margin-top: 0;
+	}
+	.top {
+		margin-top: 40px;
+	}
+	.top hr {
+		margin-bottom: 40px;
+	}
+}
+
+@media(max-width: 768px){
+	.cost_item {
+		width: 70%;
+	}
+
+	.preim_item p {
+		font-size: 14px;
+	}
+
+	.chemWork_item p {
+		font-size: 12px;
+		padding-top: 7px;
+	}
+	.chemWork_item div {
+	width: 28px;
+	height: 28px;
+	font-size: 17px;
+	padding-top: 2px;
+	}
+	.gallery-rows, .ourWork-rows {
+		margin: 20px -15px 0 -15px;
+		padding-bottom: 20px;
+	}
+	.gallery-item {
+		margin: 15px 30px;
+	}
+}
+
+@media(max-width: 750px){
+	.preim_item {
+		display: flex;
+		width: 70%;
+		margin-bottom: 20px;
+	}
+	.preim_item img, .preim_item p {
+		justify-content: space-between;
+		align-items: center;
+	}
+	.preim_item p {
+		padding-left: 30px;
+		font-size: 18px;
+	}
+	.preim_group:first-child {
+		padding-bottom: 0;
+	}
+	.preim_group:last-child {
+		margin-top: 0;
+	}
+}
+
+
+
+@media(max-width: 700px){
+	.top p:first-child {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.top p span {
+		font-size: 24px;
+	}
+	.top p:nth-child(2) {
+		font-size: 18px;
+	}
+
+	.top hr {
+		width: 180px;
+		color: #fff;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	.top input {
+		width: 200px;
+		height: 40px;		
+		font-size: 14px;		
+	}
+
+	.clients_item {
+		width: 70%;
+		display: block;
+		margin-bottom: 30px;
+	}
+	.clients_item div:last-child {
+		display: block;
+		width: 100%;
+		text-align: left;
+		padding-top: 10px;
+	}
+	.clients_item img, .clients_item div.fio {
+		display: inline-block !important; 
+	}	
+	.clients_item img {
+		vertical-align: middle;
+	}
+	.clients_item div.fio {
+		padding: auto;
+	}
+	.clients_group:last-child {
+		padding-bottom: 0;
+	}
+
+	h2 {
+		font-size: 20px;
+		padding-top: 20px;
+		padding-bottom: 7px;
+	}
+	hr {
+		width: 130px;
+	}
+	.choice_item p, .footer_item p {
+		font-size: 16px;
+	}
+	.cost_item {
+		margin-top: 25px;
+	}
+
+	#upbutton {
+	    height: 50px;
+	    width: 50px;
+  	}
+
+  	@keyframes pulse {
+			10% {
+				width: 45px;
+				height: 45px;
+			}
+		}
+
+  	.call {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+@media(max-width: 675px){
+	.col {
+		padding-top: 10px;
+	}
+	.promo_group, .preim_group, .chemWork_group,
+	.clients_group, .choice_group {
+		margin-top: 20px;
+		padding-bottom: 30px;
+	}
+	
+	.choice_item:first-child {
+		padding-top: 10px;
+	}
+	.cost_item {
+		padding: 15px 5%;
+		margin: 30px auto 30px auto;
+	}
+
+	.preim_item {
+		display: flex;
+		width: 70%;
+		margin-bottom: 20px;
+	}
+	.preim_item img, .chemWork_item p {
+		justify-content: space-between;
+		align-items: center;
+	}
+	.preim_group:first-child {
+		padding-bottom: 0;
+	}
+	.preim_group:last-child {
+		margin-top: 0;
+	}
+	.preim_item p {
+		padding-left: 30px;
+		padding-top: 9px;
+		font-size: 14px;
+	}
+	.preim_item img {
+		width: 39px;
+		height: 39px;
+	}
+
+	.box {
+		width: 260px;
+		left: calc(50% - 130px);
+		padding: 30px 0;
+	}
+	.box p {
+		font-size: 14px;
+	}
+
+	.order {
+	  width: 210px;
+	  height: 100px;
+	}
+
+	.order form > input {
+	  width: 210px;
+	  height: 30px;
+	  margin-bottom: 15px;
+	  font-size: 12px;
+	}
+	.order button {
+	  width: 210px;
+	  height: 30px;
+	  font-size: 14px;
+	}
+
+	.btn-close {
+	  right: -8px;
+	  top: -8px;
+	  width: 24px;
+	  height: 24px;
+	  border: 2px solid #3f2f22;
+	  border-radius: 12px;
+	}
+	
+	.btn-close:before, .btn-close:after {
+	  position: absolute;
+	  left: 9px;
+	  top: 4px;
+	  content: ' ';
+	  height: 12px;
+	  width: 2px;	  
+	}
+
+	.new-box { 
+	  width: 260px;
+	  left: calc(50% - 130px);
+	  padding: 35px 15px;
+	}
+	.new-box p {
+	  font-size: 16px;
+	}
+	.new-box input {
+	  width: 210px;
+	  height: 30px;
+	  margin: 50px auto 0 auto;
+	}
+	
+
+}
+
+@media(max-width: 524px){
+	.clients_item hr {
+		display: block;
+	}
+}
+
+@media(max-width: 515px){
+	.chemWork_item p {
+		padding-left: 10px;
+	}
+}
+
+@media(max-width: 495px){
+	.header_item h3 {
+		font-size: 14px;
+		padding-top: 8px;
+	}
+	.header_item h5 {
+		font-size: 10px;		
+	}
+	.header_item input {
+		width: 140px;
+		height: 30px;
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 15px;		
+	}
+	.header_item p {
+		font-size: 12px;
+		
+	}
+
+	.preim_item p {
+		font-size: 12px;
+		padding-left: 15px;
+	}
+
+	#upbutton {
+	    height: 40px;
+	    width: 40px;
+	    right: 5px;
+  	}
+
+}
+
+@media(max-width: 480px){
+	.chemWork_item p {
+		text-align: left;
+		font-size: 11px;
+		padding-top: 4px;
+	}
+	.chemWork_item div {
+		width: 24px;
+		height: 24px;
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 425px){
+	.promo_group {
+		padding-bottom: 20px;
+	}
+	.promo_item p {
+		font-size: 14px;
+	}
+	.promo_item .timer hr {
+		width: 178px;
+		position: absolute;
+		top: 34px;
+		left: calc(50% - 89px);
+		color: #e8e7e5;
+	}
+	.promo_item .timer>div {
+		display: inline-block;
+		width: 56px;
+		height: 40px;
+		border-radius: 6px;
+		font-size: 28px;		
+	}
+	.promo_item .timer p {
+		font-size: 12px;
+	}
+
+	.promo-button input {
+		width: 220px;
+		height: 40px;
+		font-size: 16px;
+		font-weight: 400;
+		margin-bottom: 30px;
+	}
+
+
+	.ourWork-item-img {
+		width: 100%;
+	}
+
+	.cost_item {
+		width: 90%;
+	}
+
+	h2 {
+		font-size: 16px;
+	}
+
+	@keyframes pulse {
+			10% {
+				width: 35px;
+				height: 35px;
+			}
+		}
+
+  	.call {
+		width: 30px;
+		height: 30px;
+		left: 4%;
+	}
+
+}
+
+
+
+@media(max-width: 320px){
+	.header-top {
+		height: 36px;
+	}
+	.header_item h3 {
+		font-size: 12px;
+		padding-top: 5px;
+	}
+	.header_item h5 {
+		font-size: 8px;		
+	}
+	.header_item input {
+		width: 120px;
+		height: 20px;
+		font-size: 12px;
+		margin-top: 8px;
+		margin-bottom: 5px;		
+	}
+	.header_item p {
+		font-size: 10px;	
+	}
+
+	.top {
+		margin-top: 20px;
+	}
+
+	.top p:first-child {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.top p span {
+		font-size: 18px;
+	}
+	.top p:nth-child(2) {
+		font-size: 14px;
+	}
+
+	.top hr {
+		width: 150px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.top input {
+		width: 160px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.slide {
+		height: 260px;
+	}
+	h2 {
+		font-size: 12px;
+		padding-top: 10px;
+		padding-bottom: 5px
+	}
+	.promo .container {
+	    margin-top: 224px;
+	}
+	.promo_group, .choice_group {
+		margin-top: 0;
+		padding-bottom: 10px;
+	}
+
+	.promo_item {
+		padding-top: 10px;
+	}
+	.promo_item img {
+		width: 193px;
+		height: 175px;
+	}
+
+	.promo_item .timer hr {
+		width: 162px;
+		top: 28px;
+		left: calc(50% - 81px);
+	}
+	.promo_item .timer>div {
+		width: 46px;
+		height: 30px;
+		border-radius: 3px;
+		font-size: 18px;		
+	}
+	.promo_item .timer p {
+		font-size: 10px;
+	}
+
+	.promo-button input {
+		width: 160px;
+		height: 30px;
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.gallery-item {
+		width: 300px;
+		height: 335px;
+	
+	}
+	.gallery-item .txt {
+		font-size: 12px;
+		margin: 10px 0;
+	}
+	.gallery-item hr {
+		width: 60px;
+		position: absolute;
+		left: 120px;
+	}
+	.preim_item {
+		text-align: left;
+	}
+
+	.choice_item p {
+		font-size: 10px;
+	}
+
+	.choice_item:nth-child(2) {
+		padding: 20px 25px;
+	}
+	.choice_item:nth-child(2) input {
+		height: 25px;
+	}
+	.choice_item:nth-child(2) input:not(:last-child) {
+		padding-left: 10px;
+	}
+	.choice_item:nth-child(2) input:last-child {
+		font-size: 15px;
+	}
+
+	.choice_item:last-child {
+		margin-top: 10px;
+	}
+
+	.chemWork_item p {
+		font-size: 10px;
+		display: inline-block;
+		width: 80%;
+		padding-top: 0;
+		vertical-align: middle;
+	}
+
+	.chemWork_group:last-child {
+		padding-bottom: 0;
+	}
+	.chemWork_item {
+		display: block;
+	}
+	.chemWork_item div {
+		display: inline-block;
+	}
+
+	
+	.cost_item {
+		height: 400px;
+	}
+
+	.cost_item p {
+	font-size: 12px;
+	padding-bottom: 10px;
+	}
+
+	.cost_item select,
+	.cost_item input {
+		font-size: 12px;
+	}
+
+	.cost_item form input:last-child {
+		font-size: 12px;
+	}
+
+	.footer_item p {
+		font-size: 12px;
+	}
+
+	.footer input {
+		width: 100px;
+		height: 30px;
+		font-size: 12px;
+		margin: 5px 0;
+	}
+
+	.col {
+		padding-top: 5px;
+	}
+
+	.footer .container {
+		padding-bottom: 15px;
+	}
+}
