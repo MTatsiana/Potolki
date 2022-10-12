@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Натяжные потолки</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Разработчик страницы Матусевич Т.В. (tv_m76@mail.ru)">
+  <meta name="description" content="Натяжные потолки">
+  <meta name="keywords" content="потолки, натяжные, матовые, глянцевые, тканевые, сатиновые">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/media.css">
+  <script src="https://code.jquery.com/jquery-git.min.js"></script>
+
+  <title>Натяжные потолки</title>
+
+
+</head>
+<body onload="time()">
+
+	<div class="call zakaz">
+		<img src="img/phone.png" />
+	</div>
+
+	<div id="upbutton"></div>
+
+	<div class="box" id="box">
+		<p>Пожалуйста, оставьте свои контактные данные и мы Вам перезвоним</p>
+	    <div class="btn-close"></div>
+	    <div class="order">
+	      <form class="vizov_form" action="index.html" method="post">
+	        <input id="name" type="text" name="name" required placeholder="ИМЯ">
+	        <input id="phone" type="text" name="phone" required placeholder="ТЕЛЕФОН">
+	        <button class="vizov" type="submit" name="button">ВЫЗВАТЬ</button>
+	      </form>
+	    </div>
+	</div>
+  <div class="new-box" id="new-box">
+    <p>
+      Ваше сообщение отправлено.<br />Наш менеджер свяжется с Вами в течении 25 секунд!
+    </p>
+    <input class="closeVizov" type="button" name="ok" value="OK" />
+  </div>
+
+<!--Header-->
+	<header class="header">
+		<div class="container">
+			<div class="scrol">
+				<ul id="slides">
+				    <li class="slide show"></li>
+				    <li class="slide"></li>
+				    <li class="slide"></li>
+				    <li class="slide"></li>
+				</ul>
+			</div>
+			<div class="header-top">
+				<div class="header_group">
+					<div class="header_item">
+						<h3>Натяжные потолки</h3>
+						<h5>Potolki-tut.by</h5>
+					</div>
+					<div class="header_item">
+						<form action="index.html" method="get">
+					  		<input class="zakaz" type="button" name="order" value="Заказать" />
+						</form>
+						<p>+375 29 <span>874-57-17</span></p>
+						<p>+375 29 <span>130-85-47</span></p>
+					</div>
+				</div>
+				<div class="top">
+					<p><span>Идеальный потолок</span><br />за 2 дня с гарантией 15 лет!</p>
+					<p>Замер и расчет БЕСПЛАТНО!</p>
+					<hr />
+					<form action="index.html" method="get">
+						<input  class="zakaz" type="button" name="sample" value="Бесплатный замер" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<!--Промо блок-->
+	<section class="promo">
+		<div class="container">
+			<div class="title_promo wow fadeInUp">
+				<h2>Супер акция!</h2>
+				<hr />
+			</div>
+			<div class="promo_group">
+				<div class="promo_item wow slideInLeft">
+					<img src="img/promo/blender.png" alt="Блендер"/>
+				</div>
+				<div class="promo_item wow slideInRight">
+					<p>Только у нас при заключении договора<br />на монтаж потолков по всей квартире</p>
+					<p><span>Погружной блендер в Подарок,<br />а новоселам Скидка 20%</span></p>
+					<div class="timer">
+           				<hr>
+						<div id="hours">
+
+						</div>
+						<div id="minutes">
+
+						</div>
+						<div id="seconds">
+
+						</div>
+						<p>до окончания осталось</p>
+					</div>
+				</div>
+			</div>
+			<div class="promo-button">
+				<form action="index.html" method="get">
+					<input  class="zakaz" type="button" name="measurer" value="Вызвать замерщика" />
+				</form>
+			</div>
+		</div>
+	</section>
+
+<!--Галлерея-->
+	<section class="gallery">
+		<div class="container">
+      <div class="title_gallery">
+				<h2>Потолки для вашего дома</h2>
+				<hr />
+			</div>
+      <div class="gallery-rows">
+        <div class="gallery-item">
+          <div class="gallery-item-img">
+            <div class="gallery-item-price">
+              <p>от<br><strong>420</strong> т.р.</p>
+            </div>
+            <div class="gallery-item-info">
+              <p>
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <input  class="zakaz" type="button" name="order" value="Заказать" />
+            </div>
+          </div>
+          <div class="txt">Двухуровневый<br>потолок</div>
+          <hr>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item-img">
+            <div class="gallery-item-price">
+              <p>от<br><strong>420</strong> т.р.</p>
+            </div>
+            <div class="gallery-item-info">
+              <p>
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <input  class="zakaz" type="button" name="order" value="Заказать" />
+            </div>
+          </div>
+          <div class="txt">Матовый</div>
+          <hr>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item-img">
+            <div class="gallery-item-price">
+              <p>от<br><strong>420</strong> т.р.</p>
+            </div>
+            <div class="gallery-item-info">
+              <p>
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <input  class="zakaz" type="button" name="order" value="Заказать" />
+            </div>
+          </div>
+          <div class="txt">Сатиновый<br>потолок</div>
+          <hr>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item-img">
+            <div class="gallery-item-price">
+              <p>от<br><strong>420</strong> т.р.</p>
+            </div>
+            <div class="gallery-item-info">
+              <p>
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <input  class="zakaz" type="button" name="order" value="Заказать" />
+            </div>
+          </div>
+          <div class="txt">Глянцевый</div>
+          <hr>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item-img">
+            <div class="gallery-item-price">
+              <p>от<br><strong>420</strong> т.р.</p>
+            </div>
+            <div class="gallery-item-info">
+              <p>
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <input  class="zakaz" type="button" name="order" value="Заказать" />
+            </div>
+          </div>
+          <div class="txt">Фотопотолок</div>
+          <hr>
+        </div>
+
+        <div class="gallery-item">
+          <div class="gallery-item-img">
+            <div class="gallery-item-price">
+              <p>от<br><strong>420</strong> т.р.</p>
+            </div>
+            <div class="gallery-item-info">
+              <p>
+                Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь.
+              </p>
+              <input  class="zakaz" type="button" name="order" value="Заказать" />
+            </div>
+          </div>
+          <div class="txt">Тканевый<br>потолок</div>
+          <hr>
+        </div>
+      </div>
+		</div>
+	</section>
+
+<!--Наши преимущества-->
+	<section class="preim">
+		<div class="container">
+			<div class="title_preim">
+				<h2>Наши преимущества</h2>
+				<hr />
+			</div>
+			<div class="preim_block">
+				<div class="preim_group">
+					<div class="preim_item">
+						<img src="img/preim/1.png" alt="Установка"/>
+						<p>Установка потолков без выходных</p>
+					</div>
+					<div class="preim_item">
+						<img src="img/preim/2.png" alt="Гарантия"/>
+						<p>Гарантия 15 лет</p>
+					</div>
+					<div class="preim_item">
+						<img src="img/preim/3.png" alt="Расчет"/>
+						<p>Наличный и безналичный расчет</p>
+					</div>
+				</div>
+
+				<div class="preim_group">
+					<div class="preim_item">
+						<img src="img/preim/4.png" alt="Договор"/>
+						<p>Официальный договор</p>
+					</div>
+					<div class="preim_item">
+						<img src="img/preim/5.png" alt="Скидки"/>
+						<p>Скидки новоселам и пенсионерам</p>
+					</div>
+					<div class="preim_item">
+						<img src="img/preim/6.png" alt="Качество"/>
+						<p>Качественно и быстро</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+<!--Наши работы-->
+	<section class="ourWork">
+		<div class="container">
+      <div class="title_ourWork">
+				<h2>Наши работы</h2>
+				<hr />
+			</div>
+      <div class="ourWork-rows">
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Двухуровневый<br>потолок
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Двухуровневый<br>потолок
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Глянцевый
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Двухуровневый<br>потолок
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Двухуровневый<br>потолок
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Матовый
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Двухуровневый<br>потолок
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Двухуровневый<br>потолок
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+
+        <div class="ourWork-item">
+          <div class="ourWork-item-img">
+            <div class="ourWork-item-info">
+              <p>
+                Фотопотолок
+              </p>
+              <input class="zakaz" type="button" name="want" value="Хочу также" />
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+	</section>
+
+<!--Не можете определиться с выбором?-->
+	<section class="choice">
+		<div class="container">
+			<div class="title_choice">
+				<h2>Не можете определиться с выбором?</h2>
+				<hr />
+			</div>
+			<div class="choice_group">
+				<div class="choice_item">
+					<p>Вы можете бесплатно<br />вызвать консультанта<br />с образцами на дом</p>
+					<p>+375 29 <span>874-57-17</span></p>
+					<p>+375 29 <span>130-85-47</span></p>
+				</div>
+				<div class="choice_item">
+					<form class="vizov2_form" action="index.html" method="get">
+						<input id="name2" type="text" name="name" maxlength="12" required placeholder="ИМЯ"/>
+						<input id="phone2" type="text" name="phone" required placeholder="ТЕЛЕФОН">
+						<input class="vizov2" type="submit" value="Вызвать">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!--Отзывы наших клиентов-->
+	<section class="clients">
+		<div class="container">
+			<div class="title_clients">
+				<h2>Отзывы наших клиентов</h2>
+				<hr />
+			</div>
+			<div class="clients_block">
+				<div class="clients_group">
+					<div class="clients_item">
+						<img src="img/clients/Kluni.png" alt="Клуни"/>
+						<div class="fio">
+							<h4>Джорш Клуни</h4>
+							<p>Актёр</p>
+							<p>г.Минск</p>
+						</div>
+						<hr />
+						<div>
+							<p>Глядя на его эскиз, мы даже не могли представить, что такая красота в итоге получится!</p>
+						</div>
+					</div>
+					<div class="clients_item">
+						<img src="img/clients/Djoli.png" alt="Джоли"/>
+						<div class="fio">
+							<h4>Анджелина Джоли</h4>
+							<p>Актриса</p>
+							<p>г.Минск</p>
+						</div>
+						<hr />
+						<div>
+							<p>Заказала потолок на кухню, хотел белый глянец, дизайнер подсказал, что если плита газовая, то белый может закоптиться, и предожил кремово бежевый</p>
+						</div>
+					</div>
+					<div class="clients_item">
+						<img src="img/clients/Yackobs.png" alt="Якобс"/>
+						<div class="fio">
+							<h4>Марк Якобс</h4>
+							<p>Дизайнер</p>
+							<p>г.Минск</p>
+						</div>
+						<hr />
+						<div>
+							<p>Все четко, я не парился!</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="clients_group">
+					<div class="clients_item">
+						<img src="img/clients/Hilton.png" alt="Хилтон"/>
+						<div class="fio">
+							<h4>Пэрис Хилтон</h4>
+							<p>Певица</p>
+							<p>г.Минск</p>
+						</div>
+						<hr />
+						<div>
+							<p>Понравилось, что к нам относились с понимаем и уважением, внимательно консультировали. Ведь хотелось всё по высшему разряду, и так оно и вышло!</p>
+						</div>
+					</div>
+					<div class="clients_item">
+						<img src="img/clients/Zidan.png" alt="Зидан"/>
+						<div class="fio">
+							<h4>Зенедин Зидан</h4>
+							<p>Футболист/Тренер</p>
+							<p>г.Минск</p>
+						</div>
+						<hr />
+						<div>
+							<p>Мало того, что всё сделано в лучшем виде и вовремя, так ребята ещё и поразили аккуратностью: и за собой всё убрали, и упаковочный мусор весь вынесли сами.</p>
+						</div>
+					</div>
+					<div class="clients_item">
+						<img src="img/clients/Zi.png" alt="Зи"/>
+						<div class="fio">
+							<h4>Джей Зи</h4>
+							<p>Музыкант</p>
+							<p>г.Минск</p>
+						</div>
+						<hr />
+						<div>
+							<p>Заказал потолок на кухню, хотел белый глянец, дизайнер подсказал, что если плита газовая, то белый может закоптиться, и предожил кремово бежевый.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!--Схема работы-->
+	<section class="chemWork">
+		<div class="container">
+			<div class="title_chemWork">
+				<h2>Схема работы</h2>
+				<hr />
+			</div>
+			<div class="chemWork_block">
+				<div class="chemWork_group">
+					<div class="chemWork_item">
+						<div>1</div>
+						<p>Оставьте заявку на сайте или по телефону</p>
+					</div>
+					<div class="chemWork_item">
+						<div>2</div>
+						<p>Выезд специалиста для замера с образцами</p>
+					</div>
+					<div class="chemWork_item">
+						<div>3</div>
+						<p>Подписание договора</p>
+					</div>
+				</div>
+
+				<div class="chemWork_group">
+					<div class="chemWork_item">
+						<div>4</div>
+						<p>Производство и монтаж потолка</p>
+					</div>
+					<div class="chemWork_item">
+						<div>5</div>
+						<p>Убираем за собой мусор</p>
+					</div>
+					<div class="chemWork_item">
+						<div>6</div>
+						<p>Выписываем гарантию</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+<!--Рассчитать стоимость натяжного потолка-->
+	<section class="cost">
+		<div class="container">
+      <div class="title_cost">
+        <h2>Рассчитать стоимость<br>натяжного потолка</h2>
+        <hr />
+      </div>
+
+        <div class="cost_item">
+          <form action="index.html" method="get">
+          	<p>Выберите параметры</p>
+			<select name="manufacturer">
+				<option selected="selected">ПРОИЗВОДИТЕЛЬ</option>
+	            <option value="MSD">MSD</option>
+	            <option value="Pongs">Pongs™</option>
+	            <option value="Descor">Descor</option>
+	            <option value="Clipso">Clipso</option>
+	            <option value="Polyplast" >Polyplast</option>
+	            <option value="CTN">CTN™</option>
+	            <option value="Renolit">Renolit™</option>
+	            <option value="Казанский завод искусственных кож">Казанский завод искусственных кож</option>
+	        </select>
+
+            <input type="number" name="square" pattern="^[ 0-9]+$" required placeholder="ПЛОЩАДЬ (м2)"/>
+            <input type="number" name="corners" pattern="^[ 0-9]+$" required placeholder="УГЛЫ (шт)">
+            <input type="number" name="chandelier" pattern="^[ 0-9]+$" required placeholder="ЛЮСТРЫ (шт)">
+            <input type="number" name="lamp" pattern="^[ 0-9]+$" required placeholder="СВЕТИЛЬНИКИ (шт)">
+            <input id="phone3" type="tel" name="phone" required placeholder="ТЕЛЕФОН">
+            <input type="submit" value="Рассчитать">
+          </form>
+        </div>
+
+		</div>
+	</section>
+
+<!--Подвал-->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer_item">
+				<p>Позвоните нам или<br />оставьте заявку на сайте</p>
+				<form action="index.html" method="get">
+					<input class="zakaz" type="button" name="order" value="Заказать" />
+				</form>
+			</div>
+			<div class="footer_item col">
+				<p>+375 29 <span>874-57-17</span></p>
+				<p>+375 29 <span>130-85-47</span></p>
+			</div>
+		</div>
+	</footer>
+
+
+  <script type="text/javascript" src="js/jquery-3.4.0.js"></script>
+  <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+
+  <link rel="stylesheet" href="css/animate.min.css">
+  <script type="text/javascript" src="js/wow.min.js"></script>
+
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
